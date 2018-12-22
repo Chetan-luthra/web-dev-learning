@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
   <title>LP Jewellers</title>
   <style>
     header{
@@ -28,6 +30,15 @@
     }
     .tabs .tab a:focus, .tabs .tab a:focus.active{
       background: transparent;
+    }
+    .wrapper{
+      width: 100%;
+      text-align: center;
+      margin-top: 5em;
+      font-family: "Libre Franklin";
+    }
+    h2.wrapper{
+      animation-delay: 1s;
     }
   </style>
 </head>
@@ -61,6 +72,7 @@
         </ul>
       </div>
     </nav>
+    <h2 class="wrapper animated slideInRight  white-text ">LP Jewellers</h2>
   </header>
 
 
@@ -226,6 +238,7 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="effects.js"></script>
   <script>
     $(document).ready(function(){
 
